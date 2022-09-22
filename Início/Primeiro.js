@@ -26,4 +26,9 @@ console.log(quantidade);
 console.log(preco);
 console.log(imposto);
 
+//Atividade 2 - Área da Circunferência
+const PI = 3.141592;
+var raio = 2;
+console.log(PI*raio*raio);
+
 
