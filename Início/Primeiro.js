@@ -17,3 +17,13 @@ console.log("Olá, Mundo");
     console.log("6");
     console.log("8");
 }
+
+//Variáveis
+var quantidade = 10;
+var preco = 10.24;
+var imposto = 1.23;
+console.log(quantidade);
+console.log(preco);
+console.log(imposto);
+
+
