@@ -31,4 +31,14 @@ const PI = 3.141592;
 var raio = 2;
 console.log(PI*raio*raio);
 
+//Atividade 3 - Troca de valores
+
+var a = 14;
+var b = 45;
+var temporario;
+temporario = a;
+a = b;
+b = temporario;
+console.log(a, b);
+
 
