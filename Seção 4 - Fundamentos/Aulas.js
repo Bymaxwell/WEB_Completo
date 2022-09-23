@@ -40,6 +40,9 @@ console.log(media.toFixed(2)); //Duas casas decimais
 console.log(media.toString(2)); //Converte para  uma base determinada
 console.log(typeof media);
 
+console.log(7/0); //Infinito
+console.log(0.1+0.7); //Imprecisão
+
 
 
 
