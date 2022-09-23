@@ -18,5 +18,11 @@ console.log(a, b);
 const C = 123;
 console.log(C);
 
+//Tipagem fraca
+let pqp = false; //Produto Químico Perigoso 
+let texto = "Legal";
+console.log(texto);
+console.log(typeof texto);
+
 
 
