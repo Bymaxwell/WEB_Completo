@@ -24,5 +24,33 @@ function soma(a, b=1){
 console.log(soma(5, 6));
 console.log(soma(2));
 
+//Armazenando Funções em variáveis
+
+const imprimirSOma = function (a, b) {
+    console.log(a+b);
+}
+
+imprimirSOma(2,3);
+
+//Armazenando uma Função Arrow em uma variável
+
+const soma_01 = (a, b) => {
+    return (a+b);
+}
+console.log(soma_01(4, 5));
+
+//Retorno implícito
+
+const subtracao = (a, b) => a-b;
+console.log(subtracao(5, 4));
+
+
+
+
+
+
+
+
+
 
 
