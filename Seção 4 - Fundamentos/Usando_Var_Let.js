@@ -42,3 +42,42 @@ console.log("fora = ", numero_1);
 
 //O let te escopo no local em que está inserido, se ali não for conter a variável, ele procura em um escopo acima
 
+//VAR EM LOOP
+
+for (var i=0; i<10; i++){
+    console.log(i);
+}
+
+console.log(i);
+
+const funcs = [];
+for (var k=0; k<10; k++){
+    funcs.push(function(){
+        console.log(k);
+    })
+}
+
+funcs[2]();
+funcs[8]();
+
+
+
+
+//LET EM LOOP
+
+for(let j=0; j<10; j++){
+    console.log(j);
+}
+
+//console.log(j);
+
+const funcs_2 = [];
+for(let m=0; m<10; m++){
+    funcs_2.push(function(){
+        console.log(m);
+    })
+}
+
+funcs_2[2]();
+funcs_2[8]();
+
