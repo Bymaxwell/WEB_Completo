@@ -25,6 +25,26 @@ function classificacao_triangulo(a, b, c){
 }
 */
 
+/*
+//Questão 03
+function exponenciacao(base, expoente){
+    produto = 1;
+    for(i=1; i<=expoente; i++){
+        produto *= base;
+    }
+    console.log(produto)
+}
+*/
+
+/*
+//Questão 04
+function divisao_results(dividendo, divisor){
+    console.log(`O resultado da divisão é ${Math.floor(dividendo/divisor)}`);
+    console.log(`O resto da divisão é: ${dividendo%divisor}`);
+}
+*/
+
+
 
 
 
