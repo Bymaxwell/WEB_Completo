@@ -70,6 +70,55 @@ function Juros_compostos(capital, taxa, tempo){
 }
 */
 
+/*
+//Questão 07
+function Bhaskara(a, b, c){
+    if((b*b)-(4*a*c) < 0){
+        return 'Raízes Complexas'
+    }
+    x_1 = (-b+Math.pow(((b*b)-(4*a*c)), 0.5))/(2*a)
+    x_2 = (-b-Math.pow(((b*b)-(4*a*c)), 0.5))/(2*a)
+    return [x_1, x_2]
+}
+*/
+
+
+//Questão 08
+function recordes(pontuacoes){
+ 
+    pontuacoes_array_s = pontuacoes.split();
+
+    for(let i=0; i<9; i++){
+        console.log(pontuacoes_array_s[i]) 
+    }
+    contador = 0;
+    menor = pontuacoes_array_s[0]
+    recorde = pontuacoes_array_s[0];
+
+    //Encontra o menor
+    for(let i=0; i<9; i++){
+        if(pontuacoes_array_s[i]<menor){
+            menor = pontuacoes_array_s[i] }
+    }
+    //Encontra o recorde incial
+    for(let i=0; i<9; i++){
+        if(pontuacoes_array_s[i] > recorde){
+            recorde = pontuacoes_array_s[i];
+            break; }
+    }
+
+    //Conta quantos recores
+    for(let i=0; i<9; i++){
+        if(pontuacoes_array_s[i]>recorde){
+            contador += 1;}
+    }
+
+    return [contador, menor]
+}
+
+console.log(recordes("10 20 20 8 25 3 0 30 1"))
+
+
 
 
 
