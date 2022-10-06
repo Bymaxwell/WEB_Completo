@@ -44,6 +44,38 @@ function divisao_results(dividendo, divisor){
 }
 */
 
+/*
+//Questão 05
+function corrigir_erro(number){
+    parte_inteira = Math.floor(number);
+    number = number-parte_inteira;
+    parte_fracionaria = Math.trunc(number*100);
+    return `R$${parte_inteira},${parte_fracionaria}`
+}
+*/
+
+/*
+//Questão 06
+function Juros_simples(capital, taxa, tempo){
+    return capital*(1+taxa*tempo); 
+}
+
+function Juros_compostos(capital, taxa, tempo){
+    juros = 0;
+    for(i = 1; i<=tempo; i++){
+        juros = capital*taxa;
+        capital += juros;
+    }
+    return capital;
+}
+*/
+
+
+
+
+
+
+
 
 
 
