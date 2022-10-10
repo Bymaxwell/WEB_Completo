@@ -327,6 +327,25 @@ function repeticoes(rep){
 }
 */
 
+/*
+//Questão 25
+function um_ate(limite){
+    for(let i=1; i<=limite; i++){
+        console.log(i)
+    }
+}
+*/
+
+/*
+//Questão 26
+function pares(limite){
+    for(let i=1; i<=limite; i++){
+        if(i%2==0) console.log(i);
+    }
+}
+*/
+
+
 
 
 
