@@ -82,41 +82,85 @@ function Bhaskara(a, b, c){
 }
 */
 
-
+/*
 //Questão 08
 function recordes(pontuacoes){
  
-    pontuacoes_array_s = pontuacoes.split();
+    pontuacoes_array_s = pontuacoes.split(' ');
 
-    for(let i=0; i<9; i++){
-        console.log(pontuacoes_array_s[i]) 
+    //Convertendo os valores para inteiro
+    for(let i=0; i<pontuacoes_array_s.length; i++){
+        pontuacoes_array_s[i] = parseInt(pontuacoes_array_s[i])
     }
+
     contador = 0;
-    menor = pontuacoes_array_s[0]
-    recorde = pontuacoes_array_s[0];
+    menor = pontuacoes_array_s[0];
+    indice_menor = 0;
+    maior = pontuacoes_array_s[0];
+    indice_maior = 0;
 
     //Encontra o menor
-    for(let i=0; i<9; i++){
+    for(let i=0; i<pontuacoes_array_s.length; i++){
         if(pontuacoes_array_s[i]<menor){
-            menor = pontuacoes_array_s[i] }
+            menor = pontuacoes_array_s[i];
+            indice_menor = i+1; }
     }
+   
     //Encontra o recorde incial
-    for(let i=0; i<9; i++){
-        if(pontuacoes_array_s[i] > recorde){
-            recorde = pontuacoes_array_s[i];
+    for(let i=0; i<pontuacoes_array_s.length; i++){
+        if(pontuacoes_array_s[i] > maior){
+            maior = pontuacoes_array_s[i];
+            indice_maior = i+1;
             break; }
     }
+    
 
-    //Conta quantos recores
-    for(let i=0; i<9; i++){
-        if(pontuacoes_array_s[i]>recorde){
+    //Conta quantos recordes
+    for(let i=indice_maior; i<pontuacoes_array_s.length; i++){
+        if(pontuacoes_array_s[i] >= maior){
             contador += 1;}
     }
 
-    return [contador, menor]
+    return [contador, indice_menor]
 }
+*/
 
-console.log(recordes("10 20 20 8 25 3 0 30 1"))
+/*
+//Questão 9
+function analise_notas(nota){
+    aprovado = false;
+    arrendondar_valor = 0;
+    
+    //Arredonda primeiro 
+    if (5-nota%5 < 3 && nota >= 38) arrendondar_valor = 5-nota%5;
+    nota += arrendondar_valor;
+
+    //Analisa se está aprovado após o arredondamento 
+    if (nota >= 40) aprovado = true;
+
+    return [aprovado, nota];    
+}
+*/
+
+/*
+//Questão 10
+divisivel_por_3 = number => console.log((!(number%3)))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
