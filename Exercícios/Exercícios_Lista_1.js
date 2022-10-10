@@ -251,6 +251,47 @@ function extenso(number){
 }
 */
 
+/*
+//Questão 19
+function lanchonete(lanche, quantidade){
+    switch(lanche){
+        case 100: console.log(`O valor do lanche é: ${(3.00*quantidade).toFixed(2)}`);break;
+        case 200: console.log(`O valor do lanche é: ${(4.00*quantidade).toFixed(2)}`);break;
+        case 300: console.log(`O valor do lanche é: ${(5.50*quantidade).toFixed(2)}`);break;
+        case 400: console.log(`O valor do lanche é: ${(7.50*quantidade).toFixed(2)}`);break;
+        case 500: console.log(`O valor do lanche é: ${(3.50*quantidade).toFixed(2)}`);break;
+        case 600: console.log(`O valor do lanche é: ${(2.80*quantidade).toFixed(2)}`);break;
+        default: console.log("Produto não existente")
+    }
+}
+*/
+
+/*
+//Questão 20
+function minimo_cedulas(valor){
+    cedulas = [100, 50, 10, 5, 1]
+    quant_cedulas = []
+    for(let i=0; i<cedulas.length; i++){
+        quant_cedulas[i] = parseInt(valor/cedulas[i])
+        valor = valor%cedulas[i]
+    }
+    
+    for(let i=0; i<quant_cedulas.length; i++){
+        if(quant_cedulas[i]==0){}
+        else if(i == 0) console.log(`${quant_cedulas[i]} cédula(s) de R$ 100.00`)
+        else if(i == 1) console.log(`${quant_cedulas[i]} cédula(s) de R$  50.00`)
+        else if(i == 2) console.log(`${quant_cedulas[i]} cédula(s) de R$  10.00`)
+        else if(i == 3) console.log(`${quant_cedulas[i]} cédula(s) de R$   5.00`)
+        else if(i == 4) console.log(`${quant_cedulas[i]} cédula(s) de R$   1.00`)
+    }
+}
+*/
+
+
+
+
+
+
 
 
 
