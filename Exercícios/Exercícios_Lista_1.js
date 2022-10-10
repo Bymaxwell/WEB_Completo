@@ -168,6 +168,30 @@ function fatorial(number){
 }
 */
 
+/*
+//Questão 13
+function tipo_dia(dia){
+    switch(dia){
+        case 1: console.log("Fim de semana"); break;
+        case 7: console.log("Fim de semana"); break;
+        case 2: case 3: case 4: case 5: case 6: console.log("Dia útil"); break;
+        default: console.log("Dia inválido")
+    }
+}
+*/
+
+/*
+//QUestão 14
+function vendas(fruta){
+    switch(fruta){
+        case 'maçã': console.log("Não vendemos essa fruta aqui"); break;
+        case 'kiwi': console.log("Estamos com escassz de kiwis"); break;
+        case 'melancia': console.log("Aqui está, são 3 rais o quilo"); break;
+        default: console.log("Fruta inválida"); break;
+    }
+}
+*/
+
 
 
 
