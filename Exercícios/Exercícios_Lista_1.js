@@ -287,6 +287,32 @@ function minimo_cedulas(valor){
 }
 */
 
+/*
+//Questão 21
+function plano_saude(idade){
+    if (idade < 10) console.log("R$ 80.00");
+    else if(idade >= 10 && idade < 30) console.log("R$ 50.00")
+    else if(idade >= 30 && idade < 60) console.log("R$ 95.00")
+    else console.log(" R$ 130.00")
+}
+*/
+
+/*
+//Questão 22
+function anuidade(mes, valor){
+    montante = valor;
+    for(let i=0; i<mes; i++){
+        juros = montante*0.05;
+        montante += juros;
+    }
+    return montante
+}
+*/
+
+
+
+
+
 
 
 
