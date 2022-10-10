@@ -345,6 +345,45 @@ function pares(limite){
 }
 */
 
+/*
+//Questão 27
+function analise_altura(menor, maior, taxa_menor, taxa_maior){
+    if( taxa_menor >= taxa_maior){ 
+        return (maior-menor)/(taxa_menor-taxa_maior)+1;
+    }
+    else return 0
+}
+function altura(altura_1, taxa_1, altura_2, taxa_2){
+    tempo;
+    maior = 0;
+    menor = 0;
+    if (altura_1 < altura_2) tempo = analise_altura(altura_1, altura_2, taxa_1, taxa_2)
+    if (altura_2 < altura_1) tempo = analise_altura(altura_2, altura_1, taxa_2, taxa_1)
+
+    if(tempo) console.log(`O menor ultrapassará o maior em ${tempo} anos`)
+}
+*/
+
+/*
+//Questão 28
+function impar_par(vetor){
+    par = 0;
+    impar = 0;
+    for(let i=0; i<vetor.length; i++){
+        if(vetor[i]%2==0) par += 1;
+        else impar += 1;
+    }
+
+    return [impar, par]
+}
+*/
+
+
+
+
+
+
+
 
 
 
