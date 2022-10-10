@@ -147,6 +147,33 @@ function analise_notas(nota){
 divisivel_por_3 = number => console.log((!(number%3)))
 */
 
+/*
+//Questão 11
+function bissexto(ano){
+    eh_bissexto = false
+    if (ano%400 == 0) eh_bissexto = true;
+    else if (ano%100 == 0) eh_bissexto = false;
+    else if (ano%4 == 0) eh_bissexto = true;
+
+    console.log(eh_bissexto);
+}
+*/
+
+/*
+//Questão 12
+function fatorial(number){
+    if (number == 0) return 1
+
+    return (number*fatorial(number-1))
+}
+*/
+
+
+
+
+
+
+
 
 
 
