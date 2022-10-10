@@ -309,6 +309,28 @@ function anuidade(mes, valor){
 }
 */
 
+/*
+//Questão 23
+function media_aluno (codigo, n1, n2, n3){
+    media = (n1*4+n2*3+n3*3)/10
+    if (media >= 5) console.log(`${codigo}: Nota_1:${n1}, Nota_2:${n2}, Nota_3:${n3}, Media:${media} APROVADO`)
+    else console.log(`${codigo}: Nota_1:${n1}, Nota_2:${n2}, Nota_3:${n3}, Media:${media} REPROVADO`)
+}
+*/
+
+/*
+//Questão 24
+function repeticoes(rep){
+    for(let i=0; i<rep; i++){
+        console.log("Hello World!")
+    }
+}
+*/
+
+
+
+
+
 
 
 
