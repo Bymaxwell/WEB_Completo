@@ -218,6 +218,41 @@ function calculadora(a, operacao, b){
 }
 */
 
+/*
+//Questão 17
+function auemnto(salario, plano){
+    switch(plano){
+        case 'A': console.log(`Novo salário: ${(salario*1.10).toFixed(2)}`); break;
+        case 'B': console.log(`Novo salário: ${(salario*1.15).toFixed(2)}`); break;
+        case 'C': console.log(`Novo salário: ${(salario*1.20).toFixed(2)}`); break;
+        default: console.log("Plano Inválido");
+    }
+}
+*/
+
+/*
+//Questão 18
+function extenso(number){
+    switch(number){
+        case 0: console.log("Zero");  break;
+        case 1: console.log("Um");    break;
+        case 2: console.log("Dois");  break;
+        case 3: console.log("Três");  break;
+        case 4: console.log("Quatro");break;
+        case 5: console.log("Cinco"); break;
+        case 6: console.log("Seis");  break;
+        case 7: console.log("Sete");  break;
+        case 8: console.log("Oito");  break;
+        case 9: console.log("Nove");  break;
+       case 10: console.log("Dez");   break;
+       default: console.log("Número inválido!")
+
+    }
+}
+*/
+
+
+
 
 
 
