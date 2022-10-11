@@ -495,6 +495,44 @@ function multiplica_inteiro_se_5(vetor, inteiro){
 }
 */
 
+/*
+//Questão 37
+function progressao_aritmetica(a1, r, n){
+    valores = [a1]
+    for(let i=1; i<n; i++){
+        valores.push(a1+i*r)
+    }
+    return valores
+}
+
+function progressao_geometrica(a1, q, n){
+    valores = [a1]
+    for(let i=1; i<n; i++){
+        valores.push(Math.pow(q, i)*a1)
+    }
+    return valores
+}
+*/
+
+/*
+//Questão 38
+function impares(inicio = 0, fim = 100){
+    if(inicio > fim) [inicio, fim] = [fim, inicio]
+    if(inicio%2==0) inicio+=1
+    while(inicio<fim){
+        console.log(inicio)
+        inicio+=2
+    }
+}
+*/
+
+
+
+
+
+
+
+
 
 
 
