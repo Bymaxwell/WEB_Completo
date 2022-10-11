@@ -427,6 +427,47 @@ function media_vetor(vetor){
 }
 */
 
+/*
+//Questão 33
+function concatena(inteiros, string, double){
+    for(let i=0; i<4; i++){
+        console.log("Concatenação".concat( inteiros[i]).concat( string[i]).concat( double[i]))
+    }
+}
+*/
+
+/*
+//Questão 34
+function caracteres_iguais(vetor_1, vetor_2){
+
+    for(let i=0; i<vetor_1.length; i++){
+        n_igual_1 = true;
+        for(let j=0; j<vetor_2.length; j++){
+            if((vetor_1[i] == vetor_2[j]) || (vetor_1[i] == vetor_2[j].toUpperCase()) ||(vetor_1[i].toUpperCase() == vetor_2[j])) {
+                n_igual_1 = false;
+                break;
+            }
+        }
+        if ((n_igual_1)) break;
+    }
+
+    for(let i=0; i<vetor_2.length; i++){
+        n_igual_2 = true;
+        for(let j=0; j<vetor_1.length; j++){
+            if((vetor_2[i] == vetor_1[j]) || (vetor_2[i] == vetor_1[j].toUpperCase())||(vetor_2[i].toUpperCase() == vetor_1[j])) {
+                n_igual_2 = false;
+                break;
+            }
+        }
+        if ((n_igual_2)) break;
+    }
+
+    return (!(n_igual_1||n_igual_2))
+}
+*/
+
+
+
 
 
 
