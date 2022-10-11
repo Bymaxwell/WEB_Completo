@@ -404,6 +404,33 @@ function maior_menor(vetor){
 }
 */
 
+/*
+//Questão 31
+function negativos(vetor){
+    negativos = 0;
+    for(let i=0; i<vetor.length; i++){
+        if(vetor[i]<0) negativos += 1
+    }
+    console.log(`O número de negativos no vetor é: ${negativos}`)
+}
+*/
+
+/*
+//Questão 32
+function media_vetor(vetor){
+    soma = 0
+    for(let i=0; i<vetor.length; i++){
+        soma += vetor[i]
+    }
+    media = soma/vetor.length
+    return media
+}
+*/
+
+
+
+
+
 
 
 
