@@ -466,6 +466,38 @@ function caracteres_iguais(vetor_1, vetor_2){
 }
 */
 
+/*
+//Questão 35
+function adiciona_vetor(vetorPilha, vetorInteiros){
+    for(let i=0; i<vetorInteiros.length; i++){
+        vetorPilha.push(vetorInteiros[i])
+    }
+    return vetorPilha
+}
+*/
+
+/*
+//Questão 36
+function multiplica_inteiro(vetor, inteiro){
+    for(let i=0; i<vetor.length; i++){
+        vetor[i] = vetor[i]*inteiro
+    }
+    return vetor
+}
+
+function multiplica_inteiro_se_5(vetor, inteiro){
+    for(let i=0; i<vetor.length; i++){
+        if(vetor[i]>5){
+            vetor[i] = vetor[i]*inteiro
+        }
+    }
+    return vetor
+}
+*/
+
+
+
+
 
 
 
