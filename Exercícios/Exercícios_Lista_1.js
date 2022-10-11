@@ -526,6 +526,34 @@ function impares(inicio = 0, fim = 100){
 }
 */
 
+/*
+//Questão 39
+function troca_elementos(vetor_1, vetor_2){
+    for(let i=0; i<vetor_1.length; i++){
+        [vetor_1[i], vetor_2[i]] = [vetor_2[i], vetor_1[i]] 
+    }
+
+    return [vetor_1, vetor_2]
+}
+*/
+
+/*
+//Questão 40
+function conceito(vetor){
+    for(let i=0; i<vetor.length; i++){
+        if(vetor[i]>=9 && vetor[i]<=10) console.log(`Conceito A para ${vetor[i]}`) 
+        else if (vetor[i]<9 && vetor[i]>=7) console.log(`Conceito B para ${vetor[i]}`)
+        else if (vetor[i]<7 && vetor[i]>=5) console.log(`Conceito C para ${vetor[i]}`)
+        else console.log(`Conceito D para ${vetor[i]}`)
+    }
+}
+*/
+
+
+
+
+
+
 
 
 
