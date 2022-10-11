@@ -378,6 +378,34 @@ function impar_par(vetor){
 }
 */
 
+/*
+//Questão 29
+function intervalo(vetor){
+    let dentro_intervalo = 0
+    for(let i=0; i<vetor.length; i++){
+        if(vetor[i]>=10 && vetor[i]<=20) dentro_intervalo += 1
+    }
+    fora_intervalo = vetor.length-dentro_intervalo
+
+    return [dentro_intervalo, fora_intervalo]
+}
+*/
+
+/*
+//Questão 30
+function maior_menor(vetor){
+    maior = vetor[0]
+    menor = vetor[0]
+    for(let i=0; i<vetor.length; i++){
+        if(vetor[i]>maior) maior = vetor[i]
+        if(vetor[i]<menor) menor = vetor[i]
+    }
+    return [maior, menor]
+}
+*/
+
+
+
 
 
 
