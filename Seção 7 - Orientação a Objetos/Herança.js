@@ -117,6 +117,24 @@ objeto_3.nome = 'Exemplo'
 objeto_3.falar()
 
 
+//HERANÇA  05
+console.log(typeof String)
+console.log(typeof Array)
+console.log(typeof Object)
+
+String.prototype.reverse = function(){
+    return this.split('').reverse().join('')
+}
+
+console.log('Meu nome'.reverse())
+
+Array.prototype.first = function(){
+    return this[0]
+}
+
+vetor = [34, 1, 2, 3, 4, 5]
+console.log(vetor.first())
+
 
 
 
