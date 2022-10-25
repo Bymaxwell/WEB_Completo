@@ -135,6 +135,39 @@ Array.prototype.first = function(){
 vetor = [34, 1, 2, 3, 4, 5]
 console.log(vetor.first())
 
+//HERANÇA 06
+function Aula(nome, video_ID){
+    this.nome = nome
+    this.video_ID = video_ID
+}
+
+const aula_1 = new Aula('Bem vindo', 123)
+const aula_2 = new Aula('Até Breve', 456)
+
+console.log(aula_1, aula_2)
+
+//Simulandom o new
+
+function novo(f, ...params){
+    const obj = {}
+    obj.__proto__ = f.prototype
+    f.apply(obj, params)
+    return obj 
+}
+
+const aula_3 = novo(Aula, 'Olá, bom dia', 789)
+const aula_4 = novo(Aula, 'Olá, boa noite', 946)
+
+console.log(aula_3, aula_4)
+
+
+
+
+
+
+
+
+
 
 
 
