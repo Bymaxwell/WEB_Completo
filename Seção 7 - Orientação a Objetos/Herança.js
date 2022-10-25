@@ -90,6 +90,32 @@ for(let key in filha_2){
     console.log(key) : console.log(`Por herança: ${key}`)
 }
 
+//HERANÇA 04
+
+function MeuObjeto(){}
+console.log(MeuObjeto.prototype)
+
+const objeto_1 = new MeuObjeto
+const objeto_2 = new MeuObjeto
+
+console.log(objeto_1.__proto__ === objeto_2.__proto__)
+console.log(MeuObjeto.prototype === objeto_1.__proto__)
+
+MeuObjeto.prototype.nome = 'Anônimo'
+MeuObjeto.prototype.falar = function(){console.log(`Olá, meu nome é ${this.nome}`)}
+
+objeto_1.falar()
+
+objeto_2.nome = 'Andressa'
+objeto_2.falar()
+
+const objeto_3 = {}
+objeto_3.__proto__ = MeuObjeto.prototype
+
+objeto_3.falar()
+objeto_3.nome = 'Exemplo'
+objeto_3.falar()
+
 
 
 
