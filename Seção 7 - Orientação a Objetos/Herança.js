@@ -64,3 +64,35 @@ console.log(Gol.status())
 
 Mercedes.acelera(300)
 console.log(Mercedes.status())
+
+//HERANÇA 03
+const pai_2 = {
+    nome: 'Pedro',
+    corCabelo: 'preto'
+}
+
+const filha = Object.create(pai_2)
+ filha.nome = 'Ana'
+ console.log(filha.nome)
+ console.log(filha.corCabelo)
+
+ const filha_2 = Object.create(pai_2, {
+    nome: {value: 'Bia', writable: false, enumarable: true}
+})
+console.log(filha_2.nome)
+filha_2.nome = 'Carla'
+console.log(`${filha_2.nome} tem cabelo ${filha_2.corCabelo}`)
+
+console.log(Object.keys(filha))
+
+for(let key in filha_2){
+    filha_2.hasOwnProperty(key) ?
+    console.log(key) : console.log(`Por herança: ${key}`)
+}
+
+
+
+
+
+
+
