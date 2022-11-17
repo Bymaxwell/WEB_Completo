@@ -93,6 +93,19 @@ const logica_basica = function(number, minimo, maximo, inclusivo = false){
 }
 */
 
+/*
+//Questão 08
+const multiplicacao = function(a, b){
+    produto = 0
+    for(let i=0; i<b; i++){
+        produto+=a
+    }
+    return produto
+}
+*/
+
+
+
 
 
 
