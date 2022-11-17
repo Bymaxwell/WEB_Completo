@@ -127,6 +127,18 @@ const Menos_eh_mais = function(vezes){
 }
 */
 
+/*
+//Questão 11
+const primeiro_e_ultimo = function(array){
+    first_and_last = []
+    first_and_last.push(array[0])
+    first_and_last.push(array[array.length-1])
+    return first_and_last
+}
+*/
+
+
+
 
 
 
