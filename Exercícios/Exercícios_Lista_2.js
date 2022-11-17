@@ -164,6 +164,15 @@ const encontra_numeros = function(array){
 }
 */
 
+/*
+//Questão 14
+const object_to_array = function(array){
+    return Object.entries(array)
+}
+*/
+
+
+
 
 
 
