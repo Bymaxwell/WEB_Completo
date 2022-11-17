@@ -27,13 +27,37 @@ const dias_em_anos = function(dias){
 
 */
 
-
+/*
 //Questão 3
 
 const salario_total = function(horas, preco_p_hora){
     salario = horas*preco_p_hora
     return `Salário igual R$ a ${salario}`
 }
+*/
 
-console.log(salario_total(10, 4))
+
+//Questão 4
+
+const encontra_mes = function(mes){
+    switch(mes){
+        case 1: return  'Janeiro';
+        case 2: return  'Fevereiro';
+        case 3: return  'Março';
+        case 4: return  'Abril';
+        case 5: return  'Maio';
+        case 6: return  'Junho';
+        case 7: return  'Julho';
+        case 8: return  'Agosto';
+        case 9: return  'Setembro';
+        case 10: return 'Outubro';
+        case 11: return 'Novembro';
+        case 12: return 'Dezembro';
+        default: return "Número inválido"
+    }
+}
+
+console.log(encontra_mes(01))
+
+
 
