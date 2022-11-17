@@ -151,6 +151,21 @@ const obj = {
 }
 */
 
+/*
+//Questão 13
+const encontra_numeros = function(array){
+    numeros = []
+    for(let i=0; i<array.length; i++){
+        if(typeof(array[i])==typeof(1)){
+            encontra_numeros.push(array[i])
+        }
+    }
+    return numeros
+}
+*/
+
+
+
 
 
 
