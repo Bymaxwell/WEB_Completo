@@ -104,6 +104,18 @@ const multiplicacao = function(a, b){
 }
 */
 
+/*
+//Questão 09
+const PET_repete = function(re_pet, quantidade_de_repet){
+    resultado = []
+    for(let i=0; i<quantidade_de_repet; i++){
+        resultado.push(re_pet)
+    }
+
+    return resultado
+}
+*/
+
 
 
 
