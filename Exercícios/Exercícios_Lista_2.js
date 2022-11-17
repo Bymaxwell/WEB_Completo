@@ -116,6 +116,20 @@ const PET_repete = function(re_pet, quantidade_de_repet){
 }
 */
 
+/*
+//Questão 10
+const Menos_eh_mais = function(vezes){
+    string = ''
+    for(let i=0; i<vezes; i++){
+        string = string.concat('+')
+    }
+    return string
+}
+*/
+
+
+
+
 
 
 
