@@ -137,6 +137,25 @@ const primeiro_e_ultimo = function(array){
 }
 */
 
+/*
+//Questão 12
+const remove_propriedade = function(objeto, propriedade){
+    const copia = objeto
+    delete copia[propriedade]
+    return copia
+}
+
+const obj = {
+    nome: 'Max',
+    idade: 20
+}
+*/
+
+
+
+
+
+
 
 
 
