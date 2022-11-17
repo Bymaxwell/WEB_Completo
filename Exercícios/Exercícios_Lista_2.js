@@ -64,6 +64,18 @@ const encontra_mes = function(mes){
 const def_maior = (a,b) => a >= b? true: false
 */
 
+/*
+//Questão 06
+const inverso = function(valor){
+    switch(typeof(valor)){
+        case typeof(true): return !(valor);
+        case typeof(1): return -(valor);
+        default: return `Boolenao ou números esperados mas o parâmetro é do tipo ${typeof(valor)}`
+    }
+}
+*/
+
+
 
 
 
