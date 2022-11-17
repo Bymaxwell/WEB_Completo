@@ -28,7 +28,7 @@ const dias_em_anos = function(dias){
 */
 
 /*
-//Questão 3
+//Questão 03
 
 const salario_total = function(horas, preco_p_hora){
     salario = horas*preco_p_hora
@@ -36,8 +36,8 @@ const salario_total = function(horas, preco_p_hora){
 }
 */
 
-
-//Questão 4
+/*
+//Questão 04
 
 const encontra_mes = function(mes){
     switch(mes){
@@ -57,7 +57,15 @@ const encontra_mes = function(mes){
     }
 }
 
-console.log(encontra_mes(01))
+*/
+
+/*
+//Questão 05
+const def_maior = (a,b) => a >= b? true: false
+*/
+
+
+
 
 
 
