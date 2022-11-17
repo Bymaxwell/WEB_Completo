@@ -75,6 +75,30 @@ const inverso = function(valor){
 }
 */
 
+/*
+//Questão 07
+const logica_basica = function(number, minimo, maximo, inclusivo = false){
+    if(inclusivo){
+        if((number>=minimo)&&(number<=maximo)){
+            return true
+        }
+        return false
+    }
+    else{
+        if((number>minimo)&&(number<maximo)){
+            return true
+        }
+        return false
+    }
+}
+*/
+
+
+
+
+
+
+
 
 
 
