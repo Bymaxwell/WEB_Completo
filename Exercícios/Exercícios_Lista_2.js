@@ -171,6 +171,18 @@ const object_to_array = function(array){
 }
 */
 
+/*
+//Questão 15
+const pares_pares = function(array){
+    par_par = []
+    for(let i=0; i<array.length; i++){
+        if((array[i]%2==0)&&(i%2==0)){
+            par_par.push(array[i])
+        }
+    }
+    return par_par
+}
+*/
 
 
 
